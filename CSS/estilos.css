@@ -1,0 +1,181 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.logo-pagina{
+    
+    width: 650px;
+    height: 280px;
+    margin-left: 20%;
+    margin-top: 150px;
+    
+}
+
+ul{
+
+    background-color: #142F43;
+    width: 96.3%;
+    height: 30px;
+    margin-top: 130px; 
+    list-style-type: none;
+    overflow: hidden;
+    
+    
+}
+
+header{
+
+    width: 100%;
+    height: 590px;
+    background: #f7ff00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,  hsla(51, 25%, 49%, 0.603), hsla(34, 35%, 60%, 0.562)), url(/imagenes/fondologo.png); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(51, 25%, 49%, 0.603), hsla(34, 35%, 60%, 0.562)), url(/imagenes/fondologo.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+
+
+}
+
+li{
+    display: list-item;
+    text-align: center;
+}
+
+.siguiente-botones{
+
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-left: 95px;
+    margin-top: 6px;
+    font-weight: 200;
+    font-family: 'DM Sans', sans-serif;
+        
+}
+
+.siguiente-botones:hover{
+    
+    
+    text-decoration: underline;
+
+
+}
+
+.titulos{
+
+    color:#142F43;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(235, 226, 233);
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.foto-sobre-mi{
+
+    max-width: 500px;
+    max-height: 500px;
+    float: right;
+    margin-right: 5px;
+}
+
+.texto-foto{
+
+    margin-left: 5px;
+    text-align: justify;
+    max-width: 500px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.titulos-blancos{
+
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #142F43;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+#foto-trabajo{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.imagen-trabajo{
+
+    float: left;
+    margin: 30px;
+    margin-left: 35px;
+    margin-top: 35px;
+
+}
+
+.contenedor{
+    
+    width: 100%;
+    height: 550px;
+    background-color: rgb(235, 226, 233);
+
+}
+
+.menu-fixed{
+
+    position: fixed;
+    z-index: 1000;
+    top:-130px;
+    width: 98.5%;
+    
+}
+
+.espacio-titulo{
+
+    width: 100%;
+    height: 10px;
+
+}
+
+.yutu{
+    width: 80%;
+    height: 450px;
+    margin-top: 15px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.barra-flotante{
+    background-color: #142F43;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.caja.prensa{
+
+
+}
+
+
+.imagen-prensa{
+
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    max-width: 100px;
+
+}
+
+.texto-notas{
+
+    max-width: 100px;
+    max-height: 50px;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 20px;
+        
+}
+
